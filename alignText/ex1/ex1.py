@@ -33,7 +33,8 @@ def get_words(file_to_read, dictionary, lemm_index):
     with codecs.open(file_to_read, 'r', 'utf-8') as source:
         # to check that the tag is a real one
         filter_tag = re.compile('[A-Z]')
-        forbidden_tags = re.compile('DTN|DTC|INJ|PUL|PFX|PREP|PRV|PRO|REL|SUB|CC|DT|EX|IN|LS|MD|PDT|POS|PP|RP|TO|UH|WP')
+        forbidden_tags = re.compile('''DTN|DTC|INJ|PUL|PFX|PREP|PRV|PRO|REL|
+                SUB|CC|DT|EX|IN|LS|MD|PDT|POS|PP|RP|TO|UH|WP''')
 
         # read all the file and split each elements
         line_source = source.read().split(' ')
@@ -74,19 +75,21 @@ def get_words(file_to_read, dictionary, lemm_index):
                 tag = l[1]
                 # check if it is a valid tag
                 if not filter_tag.match(tag):
-                    #print '\n\n'
+                    tag = l[2]
+                    if not filter_tag.match(tag):
+                        #print '\n\n'
+                        continue
+                if forbidden_tags.match(tag):
                     continue
-                elif forbidden_tags.match(tag):
-                    continue
-                elif ':' in tag:
+                if ':' in tag:
                     # remove gender and number
                     tag = tag.split(':')[0]
 
                 #print tag
                 # get the lemm and remove accents
                 word = l[lemm_index]
-                word = unicodedata.normalize('NFD', word)\
-                        .encode('ascii', 'ignore')
+                #word = unicodedata.normalize('NFD', word)\
+                #        .encode('ascii', 'ignore')
                 if ':' in word: 
                     word = word.split(':')[0]
 
@@ -169,6 +172,18 @@ print '###############################################################', '\n\n'
 
 print '################## SEARCH TRANSFUGES        ###################', '\n'
 transfuge_set = find_transfuges(source_lemms, target_lemms)
+
+tmp = set()
+for w in source_lemms:
+    tmp.add(unicodedata.normalize('NFD', w).encode('ascii', 'ignore'))
+
+source_lemms = tmp
+
+tmp = set()
+for w in target_lemms:
+    tmp.add(unicodedata.normalize('NFD', w).encode('ascii', 'ignore'))
+
+target_lemms = tmp
 
 with codecs.open('transfuges.txt', 'w+', 'utf-8') as file_w:
     for x in transfuge_set:
