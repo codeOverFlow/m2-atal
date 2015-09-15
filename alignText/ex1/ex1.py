@@ -11,7 +11,20 @@ import unicodedata
 files_source = {}
 files_target = {}
 
-KGRAMM = 5
+
+def create_structure(file_name,d):
+    with codecs.open(file_name, 'r', 'utf-8') as file_r:
+        for l in file_r.readlines():
+            if '__FILE' in l:
+                name = l.split('/')[0]
+                name = name.split('=')[1]
+                # use the filename as a key
+                d[name] = []
+                continue
+            elif '__ENDFILE' in l:
+                continue
+            else
+                d[name].append(l)
 
 
 def get_words(file_to_read, dictionary, lemm_index):
@@ -130,22 +143,73 @@ def find_transfuges(lemm_set_source, lemm_set_target):
     return lemm_set_source & lemm_set_target
 
 
-def find_cognat(lemm_set_source, lemm_set_target, k_gramm):
+def prefix_feature(s, t):
+    pos = 0
+    while (pos < len(s) and pos < len(t)) and s[pos] == t[pos]:
+        pos = pos + 1
+    if len(s) >= len(t):
+        return float(pos)/float(len(s))
+    else:
+        return float(pos)/float(len(t))
+    
+
+def kgrams(w, k):
+    res = set()
+    for i in range(0, len(w)-k):
+        res.add(w[i:i+k])
+    return res
+
+def dice_feature(s, t, k):
+    if float(len(kgrams(s, k) | kgrams(t, k))) == 0:
+        return 0
+    els:
+        return (float(2*len(kgrams(s, k) & kgrams(t, k))))/\
+            (float(len(kgrams(s, k) | kgrams(t, k))))
+
+
+def xgrams(w):
+    res = set()
+    for i in range(0, len(w)-3):
+        res.add(w[i]+w[i+2])
+    return res
+
+
+def xdice_feature(s, t):
+    if float(len(xgrams(s) | xgrams(t))) == 0:
+        return 0
+    return (float(2*len(xgrams(s) & xgrams(t))))/\
+            (float(len(xgrams(s) | xgrams(t))))
+
+
+def find_cognat(lemm_set_source, lemm_set_target):
     candidates = []
+    i=1
     for ls in lemm_set_source:
         for lt in lemm_set_target:
-            if ls[:k_gramm] == lt[:k_gramm]:
-                if abs(len(ls[k_gramm:]) - len(lt[k_gramm:])) < 5:
-                    middle = len(ls)/2 +1
-                    if ls[middle-(KGRAMM/2):middle+(KGRAMM/2)] in lt:
-                        candidates.append((ls,lt))
+            if len(ls) == 0 or len(lt) == 0:
+                continue
+            if abs(len(ls)-len(lt)) > 5:
+                continue
+            res = i*100/(len(lemm_set_source)*len(lemm_set_target))
+            print '\r'+str(res)+'%',
+            prefix = prefix_feature(ls, lt)
+            dice  = dice_feature(ls, lt, 2)
+            trigram = dice_feature(ls, lt, 3)
+            xdice = xdice_feature(ls, lt)
+            if xdice > 0.7:
+                if trigram > 0.75:
+                    if dice > 0.75:
+                        if prefix > 0.6:
+                            candidates.append((ls,lt))
+            i = i+1
     return candidates
+
 
 
 def remove_digit_and_too_short(set_to_process):
     tmp = set()
     for x in set_to_process:
-        if len(x) > KGRAMM and not filter_numbers.match(x):
+        if not filter_numbers.match(x):
             tmp.add(x)
     return tmp
             
@@ -203,9 +267,26 @@ print len(target_lemms)
 
 print '\n', '###############################################################'
 print '################## SEARCH COGNAT CANDIDATES ###################'
-cognat_candidates_list = find_cognat(source_lemms, target_lemms, KGRAMM)
+cognat_candidates_list = find_cognat(source_lemms, target_lemms)
 with codecs.open('cognat_candidates.txt', 'w+', 'utf-8') as file_w:
     for ls,lt in cognat_candidates_list:
         file_w.write(ls + ' <===> ' + lt + '\n')
 
-print '###############################################################'
+print '\n###############################################################'
+#w, ww = 'facteur', 'factor'
+#print prefix_feature(w, ww)
+#print kgrams(w, 2)
+#print kgrams(ww, 2)
+#print kgrams(w, 2) & kgrams(ww, 2)
+#print kgrams(w, 2) | kgrams(ww, 2)
+#print dice_feature(w, ww, 2)
+#print kgrams(w, 3)
+#print kgrams(ww, 3)
+#print kgrams(w, 3) & kgrams(ww, 3)
+#print kgrams(w, 3) | kgrams(ww, 3)
+#print dice_feature(w, ww, 3)
+#print xgrams(w)
+#print xgrams(ww)
+#print xgrams(w) & xgrams(ww)
+#print xgrams(w) | xgrams(ww)
+#print xdice_feature(w, ww)

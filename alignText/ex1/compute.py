@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import codecs
+from random import randint
 
 words = {}
 cognats = []
@@ -17,13 +18,13 @@ incorrect = 0
 
 with codecs.open('cognat_candidates.txt', 'r', 'utf-8') as file_r:
     lines = file_r.readlines()
-    for l in lines:
-        l = l.split(' <===> ')
-        if l[0] in words.keys():
-            if l[1].strip() == words[l[0]]:
-                correct = correct+1
-            else:
-                incorrect = incorrect+1
+    r = randint(0, len(lines)-1)
+    l = lines[r].split(' <===> ')
+    if l[0] in words.keys():
+        if l[1].strip() == words[l[0]].strip():
+            correct = correct+1
+        else:
+            incorrect = incorrect+1
 
 
 print correct, ' | ',
