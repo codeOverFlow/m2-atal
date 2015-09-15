@@ -1,0 +1,14 @@
+### cours 2
+
+## difficultes de thraduction des termes simples et complexe:
+   1. fertilite (Brown et al., 1993)
+      dépistage du cancer du sein -> breast screening
+   2. Non-compositionnalité (Melamed, 2001)
+      curage axillaire -> axillary dissection
+   3. variation terminologique (Daille, 2002)
+      cancer du sein vs. cancer mammaire -> breast cancer
+      prolifération tumorale -> tumour proliferation
+      taille tumorale -> diameter tumour
+
+
+## Méthodes d'alignement
