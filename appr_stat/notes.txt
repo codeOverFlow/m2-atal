@@ -1,0 +1,10 @@
+### algo Message Passing
+
+Principe:
+- Chaque noeud envoie des messages a ses voisins
+- l'algorithme ne marche que dans le cas des arbres (mais est generalisabele au cas des poly-arbres)
+
+Pire des cas:
+- chaque arcs fait passer 2 messages: complexite lineaire par rapport au nombre d'arcs
+- les calculs realises sont proportionnels a la taille de la CPD: lineaire pour les arbres, mais pas pour les poly-arbres (besoin de fixer le nb max de parents)
+- les calculs sont en temps constant
