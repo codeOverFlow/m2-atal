@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# coding: utf-8
+# -*- encoding: utf-8 -*-
 # author: Adrien Bodineau
 
 import re
@@ -13,18 +13,44 @@ files_target = {}
 
 
 def create_structure(file_name,d):
+    print file_name
     with codecs.open(file_name, 'r', 'utf-8') as file_r:
+        name = ''
         for l in file_r.readlines():
+            if len(l) == 0 or l == '\n':
+                continue
+            if '__ENDFILE' in l:
+                continue
             if '__FILE' in l:
                 name = l.split('/')[0]
+                print name.split('=')
                 name = name.split('=')[1]
                 # use the filename as a key
                 d[name] = []
                 continue
-            elif '__ENDFILE' in l:
-                continue
-            else
-                d[name].append(l)
+            else:
+                res = set()
+                for ll in l.split(' '):
+                    term_regex = re.compile('([^\s/()]+?)/([^\s/()]+?)/([^\s/()]+)')
+                    matches = []
+                    forbidden_tags = re.compile('''DTN|DTC|INJ|PUL|PFX|PREP|PRV|PRO|REL|
+                            SUB|CC|DT|EX|IN|LS|MD|PDT|POS|PP|RP|TO|UH|WP''')
+                    count_words = {} 
+                    total = 0
+                    if len(ll) == 0 or ll == '\n':
+                        continue
+                    if not term_regex.match(ll):
+                        continue
+                    word = term_regex.match(ll)
+                    wo,le,t = word.group(1), word.group(3), word.group(2).split(':')[0]
+                    if le in count_words:
+                        count_words[le] = count_words[le]+1
+                    else:
+                        count_words[le] = 0   
+                    if not forbidden_tags.match(t):
+                        res.add((wo, le, t))
+                d[name] = res
+
 
 
 def get_words(file_to_read, dictionary, lemm_index):
@@ -46,8 +72,6 @@ def get_words(file_to_read, dictionary, lemm_index):
     with codecs.open(file_to_read, 'r', 'utf-8') as source:
         # to check that the tag is a real one
         filter_tag = re.compile('[A-Z]')
-        forbidden_tags = re.compile('''DTN|DTC|INJ|PUL|PFX|PREP|PRV|PRO|REL|
-                SUB|CC|DT|EX|IN|LS|MD|PDT|POS|PP|RP|TO|UH|WP''')
 
         # read all the file and split each elements
         line_source = source.read().split(' ')
@@ -102,7 +126,7 @@ def get_words(file_to_read, dictionary, lemm_index):
                 # get the lemm and remove accents
                 word = l[lemm_index]
                 #word = unicodedata.normalize('NFD', word)\
-                #        .encode('ascii', 'ignore')
+                        #        .encode('ascii', 'ignore')
                 if ':' in word: 
                     word = word.split(':')[0]
 
@@ -151,7 +175,7 @@ def prefix_feature(s, t):
         return float(pos)/float(len(s))
     else:
         return float(pos)/float(len(t))
-    
+
 
 def kgrams(w, k):
     res = set()
@@ -162,9 +186,9 @@ def kgrams(w, k):
 def dice_feature(s, t, k):
     if float(len(kgrams(s, k) | kgrams(t, k))) == 0:
         return 0
-    els:
+    else:
         return (float(2*len(kgrams(s, k) & kgrams(t, k))))/\
-            (float(len(kgrams(s, k) | kgrams(t, k))))
+                (float(len(kgrams(s, k) | kgrams(t, k))))
 
 
 def xgrams(w):
@@ -212,21 +236,22 @@ def remove_digit_and_too_short(set_to_process):
         if not filter_numbers.match(x):
             tmp.add(x)
     return tmp
-            
+
 
 print '###############################################################'
 print '################## START PREPROCESSING      ###################'
 print '################## START SOURCE             ###################'
 
-
-source_lemms = get_words('termer_source/corpus.lem', files_source, -1)
+create_structure('termer_source/corpus.lem', files_source)
+#source_lemms = get_words('termer_source/corpus.lem', files_source, -1)
 
 
 print '################## END   SOURCE             ###################'
 print '################## START TARGET             ###################'
 
 
-target_lemms = get_words('termer_target/corpus.lem', files_target, -2)
+create_structure('termer_target/corpus.lem', files_target)
+#target_lemms = get_words('termer_target/corpus.lem', files_target, -2)
 
 
 print '################## END   TARGET             ###################'
@@ -235,42 +260,42 @@ print '###############################################################', '\n\n'
 
 
 print '################## SEARCH TRANSFUGES        ###################', '\n'
-transfuge_set = find_transfuges(source_lemms, target_lemms)
-
-tmp = set()
-for w in source_lemms:
-    tmp.add(unicodedata.normalize('NFD', w).encode('ascii', 'ignore'))
-
-source_lemms = tmp
-
-tmp = set()
-for w in target_lemms:
-    tmp.add(unicodedata.normalize('NFD', w).encode('ascii', 'ignore'))
-
-target_lemms = tmp
-
-with codecs.open('transfuges.txt', 'w+', 'utf-8') as file_w:
-    for x in transfuge_set:
-        file_w.write(x+'\n')
-
-# filter again before looking for cognat
-print len(source_lemms)
-source_lemms = source_lemms.difference(transfuge_set)
-filter_numbers = re.compile('\d+(.\d+)*')
-source_lemms = remove_digit_and_too_short(source_lemms)
-print len(source_lemms)
-
-print len(target_lemms)
-target_lemms = target_lemms.difference(transfuge_set)
-target_lemms = remove_digit_and_too_short(target_lemms)
-print len(target_lemms)
-
-print '\n', '###############################################################'
-print '################## SEARCH COGNAT CANDIDATES ###################'
-cognat_candidates_list = find_cognat(source_lemms, target_lemms)
-with codecs.open('cognat_candidates.txt', 'w+', 'utf-8') as file_w:
-    for ls,lt in cognat_candidates_list:
-        file_w.write(ls + ' <===> ' + lt + '\n')
+#transfuge_set = find_transfuges(source_lemms, target_lemms)
+#
+#tmp = set()
+#for w in source_lemms:
+#    tmp.add(unicodedata.normalize('NFD', w).encode('ascii', 'ignore'))
+#
+#source_lemms = tmp
+#
+#tmp = set()
+#for w in target_lemms:
+#    tmp.add(unicodedata.normalize('NFD', w).encode('ascii', 'ignore'))
+#
+#target_lemms = tmp
+#
+#with codecs.open('transfuges.txt', 'w+', 'utf-8') as file_w:
+#    for x in transfuge_set:
+#        file_w.write(x+'\n')
+#
+## filter again before looking for cognat
+#print len(source_lemms)
+#source_lemms = source_lemms.difference(transfuge_set)
+#filter_numbers = re.compile('\d+(.\d+)*')
+#source_lemms = remove_digit_and_too_short(source_lemms)
+#print len(source_lemms)
+#
+#print len(target_lemms)
+#target_lemms = target_lemms.difference(transfuge_set)
+#target_lemms = remove_digit_and_too_short(target_lemms)
+#print len(target_lemms)
+#
+#print '\n', '###############################################################'
+#print '################## SEARCH COGNAT CANDIDATES ###################'
+#cognat_candidates_list = find_cognat(source_lemms, target_lemms)
+#with codecs.open('cognat_candidates.txt', 'w+', 'utf-8') as file_w:
+#    for ls,lt in cognat_candidates_list:
+#        file_w.write(ls + ' <===> ' + lt + '\n')
 
 print '\n###############################################################'
 #w, ww = 'facteur', 'factor'
