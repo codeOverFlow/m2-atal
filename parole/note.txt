@@ -1,0 +1,14 @@
+### Question a poser
+
+## article 1
+- parametrisation: 
+   - vecteur calculer toutes les 10ms sur fenetre de 30ms -> v2 C v1 C v0 ???
+   - duplication de l'information ou mauvaise comprehension de l'article?
+
+
+## modelisation du langage
+- la modelisation du langage a pour objectif de resumer les connaissances 
+  generales liees a un langage naturel
+
+## probleme des mots hors-vocabulaire
+

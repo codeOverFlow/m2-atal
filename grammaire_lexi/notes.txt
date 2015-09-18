@@ -27,3 +27,14 @@ la normalisation de Greibach conserve l'ambiguitee de la grammaire et peut
 introduire de l'ambiguitee dans une grammaire non ambigue
 
 
+
+### Model HPSG (Head-driven Phrase Structure Grammar)
+- Pas de niveau d'analyse de la langue:
+   forme phonetique -> syntaxe de surface -> syntaxe profonde -> forme logique
+- Tous les niveaux sont melanges: modules en parallele
+- Toute l'information specifique est placee dans les "mots"
+- Des principes generaux conduisent la formation des syntagmes
+- L'analyse se fait de bas en haut
+
+
+##
