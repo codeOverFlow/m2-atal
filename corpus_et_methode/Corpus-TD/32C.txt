@@ -1,0 +1,309 @@
+Les trois principales formes d'énergie sont d'origine solaire : photovoltaïque, hydraulique et éolienne !
+En fait l'énergie éolienne est une autre forme de l'énergie solaire puisque l'air atmosphérique mis en mouvement par le soleil donne de petites brises et des vents dont l'énergie actionne les moulins à air que sont les éoliennes d'aujourd'hui.
+Ces dernières ont énormément évolué ces dernières années et il y a un monde technologique entre l'éolienne agricole de grand-papa et les modèles installés aujourd'hui...
+Qu’est ce qu’une éolienne ?
+Une éolienne est un dispositif qui permet de capter l’énergie cinétique du vent pour la transformer en électricité. On parle aussi d’aérogénérateur.
+Le vent fait tourner les pales du rotor, qui est relié à une génératrice pour produire de l’électricité. Celle-ci est soit stockée dans des batteries, soit directement injecté dans le réseau électrique.
+Classification des éoliennes
+On divise généralement les éoliennes en 4 catégories :
+-
+le grand éolien : puissance > 350 kW
+-
+le moyen éolien : puissance entre 36 kW et 350 kW
+-
+le petit éolien : puissance entre 1 kW et 36 kW
+-
+le très petit éolien : puissance Le petit et moyen éolien est particulièrement bien adapté (par sa taille et sa puissance) pour l’équipement des particuliers, des exploitants agricoles, des entreprises et des bâtiments publics.
+Histoire
+Les premiers moulins à vent dateraient de 1700 avant J-C.
+Vers 1100 les Croisés et les voyageurs de l'Occident les auraient découverts.
+La France elle-même comptait il y a deux siècles quelques 20.000 moulins à vent.
+Nos anciens n'avaient donc pas attendu les charbonniers, puis les pétroliers et autres gaziers ou nos centrales nucléaires pour puiser sur place l'énergie dont ils avaient besoin.
+On nous ressert donc aujourd'hui, une nouveauté vieille de près de 40 siècles, et que le pseudo progrès nous a fait abandonné, il n'y a pas si longtemps...
+A titre indicatif, la capacité de production d'énergie éolienne de l'Espagne a augmenté de 20,3 % en 2005, pour atteindre 9.947 megawatts, soit 8,25 % de la consommation électrique du pays.
+En 2002, c'était déjà 20.000 MW qui étaient produits dans le monde...
+Une lente implantation en France
+La France possède le second gisement éolien d'Europe.
+Elle s'était engagée dans le cadre d'une directive européenne à atteindre 21 % de ses besoins en électricité renouvelable à l'horizon 2010, et sept projets de centrales éoliennes ont ainsi été retenus sur notre territoire.
+Ils ne sont pas tous en bord de mer puisqu'un des derniers en date concerne les communes d'Echalot, Etalante et Poiseul-le-Grange en Côte d'Or.
+Démarches pour les petits projets
+Les particuliers, agriculteurs... peuvent investir collectivement dans ce mode de production d'énergie, en sachant qu'il faut compter entre 6 et 7 ans pour amortir un investissement de l'ordre de 1000 € par kW installé.
+La première démarche est de valider le potentiel éolien de son site, en réalisant une étude avec un anémomètre sur un mât de mesure relié à un enregistreur.
+Si le vent moyen est supérieur à 5m/ s, le projet est viable et vous devez choisir la puissance de l'installation.
+Si ce n'est pas le cas, il est préférable de vous orienter vers une installation photovoltaïque, qui est plus adaptée aux puissances inférieures à 2 kW. (
+voir énergie solaire)
+Indications
+Pour les sites isolés, non raccordés au réseau électrique (maisons forestières, fermes à l'écart...) l'électricité produite est stockée dans des batteries.
+Si le vent est irrégulier, le couplage avec un système photovoltaïque est recommandé pour avoir une production homogène.
+Fonctionnement et chiffres clés
+Le flux des rayons solaires chauffe inégalement les masses d'air de l'atmosphère, provoquant ainsi des mouvements de masse d'air entre zones de températures et donc de pressions différentes :
+2 % de l'énergie solaire (3,2 x 10 puissance 24 Joules/ an) est transformée en énergie éolienne.
+35 % de cette énergie est dissipée dans la 1ère couche d'air épaisse d'1 km et servant de couverture à la terre.
+Si on utilisait 10% seulement de cette énergie éolienne cela correspondrait à :
+E (énergie éolienne) = 3,2 x 10 24 x 0,02 x 0,35 x 0,1 = 2,24 x 10 21 Joules/ an,
+A titre de comparaison, cela correspond quand même à 7 fois la consommation mondiale d'électricité !
+Les éoliennes ou aérogénérateurs les plus courants sont à axe horizontal et composés d'un mât, d'un rotor, d'une nacelle, du système de régulation, et du poste de transformation moyenne tension.
+Au delà de 300 m d'éloignement, le bruit généré par les éoliennes de dernière génération est comparable à celui d'une conversation à voix basse.
+Carte de France des moyennes de vents
+Vitesse moyenne annuelle du vent, à 50 mètres au-dessus du niveau du sol, en plaines exposées.
+(d'après l'étude : European Wind Energy Atlas, Troen & Pedersen - 1989)
+Une éolienne commence à produire avec un vent d'environ 4 m/s et double sa production dès 7 m/ s.
+à partir de 25 m/ s environ, elle se met "en drapeau" et ne produit plus !
+L'estimation du potentiel éolien d'un site ne s'obtient pas seulement à partir du vent moyen : une bonne connaissance des variations du vent est aussi nécessaire.
+Pour cela, on utilise la distribution dite de « Weibull » qui indique la répartition des vents par classes de vitesses. L'information obtenue permet de calculer l'énergie disponible (qui varie comme le cube de la vitesse, d'où la nécessité de connaître la répartition des vitesses).
+Une énergie à consommer près du lieu de production
+Le vent est présent partout sur la planète à des degrès et des moments différents et directement en rapport avec la météorologie.
+Sa force permettrait donc d'approvisionner localement fermes, hameaux, villages et agglomérations sans avoir à déplorer les pertes dues au transport de l'électricité, les frais de construction et d'entretien des lignes à haute tension et des transformateurs.
+Cependant, les projets actuels s'orientent vers d'énormes projets, n'allant pas sans poser des problèmes d'intégration et privant de fait les populations équipées d'éoliennes de tout contrôle sur leur propre production.
+Il faut donc ramener l'éolienne au niveau qui était le sien au temps des moulins, c'est à dire au plus proche du consommateur, en construisant de petites installations locales de captage, à taille humaine, gérées directement par les populations.
+A titre indicatif, une maison européenne consomme en moyenne entre 6 et 10 kWh par jour, soit environ 2500 kWh/ an et par foyer.
+Carte des vents en Languedoc
+Moyenne des vents dans la Nièvre
+Mesures effectuées en m/ s sur la base de 8 valeurs quotidiennes entre 1963 et 1999
+Janv
+Fev
+Mars
+Avril
+Mai
+Juin
+Juil
+Août
+Sept
+Oct
+Nov
+Déc
+3,0
+3,1
+3,1
+3,1
+2,6
+2,5
+2,3
+2,1
+2,1
+2,3
+2,7
+3,0
+Nombre de jours ayant eu des rafales dont la vitesse était supérieure à 16 m/ s entre 1963 et 1999
+Janv
+Fev
+Mars
+Avril
+Mai
+Juin
+Juil
+Août
+Sept
+Oct
+Nov
+Déc
+3,5
+3,4
+3,5
+2,8
+1,9
+1,6
+1,5
+1,3
+1,1
+1,7
+3,1
+3,4
+Eolienne, les avantages écologiques
+1.- gaz carbonique évité
+Les centrales électriques thermiques génèrent des émissions de gaz carbonique(CO2) suivant le combustible utilisé.
+L''énergie éolienne n'en créant pas, on peut évaluer la quantité de CO2 évitée par ce moyen de production.
+On évalue le taux d'émission de CO2 par kWh marginal (le dernier kWh appelé) à 443 g de CO2/ kWh produit (source ADEME, B. Chabot).
+2.- déchets nucléaires évités
+les centrales nucléaires produisent plusieurs types de déchets.
+on évalueà 3 g /MWh le ratio de production massique de déchets nucléaires à haute activité et longue durée de vie (classes B et C) (source ADEME, B. Chabot).
+Ce ratio permet de calculer la quantité de déchets nucléaires évités, en remplaçant le nucléaire par de l'éolien.
+L'éolien, une affaire juteuse
+Outre le fait de donner du travail aux entreprises qui les fabriquent, et à celles qui les installent, les centrales éoliennes sont intéressantes financièrement à 2 niveaux :
+- Les collectivités en retirent une taxe professionnelle rondelette, et qui est stable sur le temps, permettant des investissements à long terme !
+- Les exploitants revendent l'électricité produite à un tarif de l'ordre du double de celui du marché !
+Prix de revente de l'électricité éolienne
+Les tarifs d'achat de l'électricité produite à partir d'éoliennes dépendent de la production annuelle, exprimée en nombre équivalent d'heures de fonctionnement à la puissance nominale, et sont définis par l'arrêté du 8 juin 2001.
+Ils sont volontairement dégressifs en fonction de la production de façon à éviter que les demandes d'installations se concentrent trop dans les zones les plus ventées du territoire, et assurer ainsi une bonne répartition de la production d'électricité d'origine éolienne.
+Elle est revendue à ERDF à un tarif supérieur à celui pratiqué en achat particulier, car chaque région a l'obligation réglementaire de produire une certaine quotité d'énergies renouvelables !
+A titre indicatif, ce tarif de rachat était de 0,08 € en 2002 pour un coût d'environ 1.000 € par kW installé.
+Pour la France métropolitaine : (en centimes d'euros par kWh)
+Durée annuelle de fonctionnement de référence
+Tarif des 5 premières années
+Tarif sur 10 années
+2000 h et moins
+8,38
+8,38
+Entre 2000 et 2600 h
+8,38
+Interpolation linéaire
+2600 h
+8,38
+5,95
+Entre 2600 h et 3600 h
+8,38
+Interpolation linéaire
+3600 h et plus
+8,38
+3,05
+Ces tarifs sont également dégressifs d'un coefficient de 0,967 par an depuis 2003.
+Ils sont aussi ajustés en fonction de l'indice du coût horaire du travail dans les industries mécaniques et électriques ainsi que sur l'indice des produits et services divers à l'année de demande de raccordement.
+Pour un investissement initial de 1 million d'euros nécessaire à l'implantation d'une grande éolienne de 1MW raccordée au réseau, la rentabilité annuelle moyenne calculée (pour un fonctionnement équivalent à 2500 heures par an, avec un amortissement sur 15 ans) avoisine donc les 8%.
+En Europe :
+A titre de comparaison, le kWh est acheté 8,42 centimes d'euros en Italie et, aux Pays-Bas, le prix d'achat éolien correspond au prix de marché plus une prime additionnelle de 4,9 centimes d'euros pour le kWh onshore et 6,8 centimes d'euros le kWh offshore.
+Vocabulaire
+Aérogénérateur
+système transformant l'énergie du vent en énergie électrique.
+Anémomètre
+appareil de mesure de la vitesse du vent. Sur une éolienne il transmet ses signaux au système de contrôle-commande.
+Arbre lent
+arbre reliant le moyeu au multiplicateur.
+Arbre rapide
+arbre secondaire entraînant la génératrice.
+Contrôle-Commande
+système qui pilote et régule le fonctionnement de l'éolienne.
+Courbe de puissance
+graphique indiquant en abscisse la vitesse du vent en en ordonnée la puissance électrique délivrée.
+Dispositif d'orientation
+système motorisé permettant d'orienter le rotor et la nacelle face au vent, pour en augmenter les performances.
+Facteur de charge
+rapport entre la production effective et la capacité maximale de production, dépendant de la puissance nominale installée sur cette même période
+(FC =E / (P x T)
+Cet indicateur de productivité est appelé aussi Facteur de Capacité.
+Génératrice ou alternateur
+élément qui transforme le travail des pales en courant électrique.
+Girouette
+capteur de mesure de la direction du vent. il transmet ses signaux au système de contrôle-commande.
+kilowatt (kW)
+unité de puissance.
+kilowattheure (kWh)
+unité mesurant l'énergie fournie pendant une heure par une puissance de 1 kW.
+1000 kWh = 1 MWh (Mégawattheure)
+Mètres par seconde (m/s)
+unité de vitesse du vent (10 m/s = 36 km/h)
+Mât
+élément sur lequel est fixé la nacelle et son rotor
+Moyeu
+axe du rotor
+Multiplicateur
+engrenage qui permet de multiplier la vitesse de rotation de l'arbre de 20 à 1500 trs/minute environ.
+Nacelle
+enveloppe des éléments mécaniques situés en tête de mât.
+Nombre équivalent de Foyers
+nombre théorique de foyers pouvant être alimentés par la production d'une éolienne.
+Pales
+branches de l'hélice sur lesquelles s'exerce la force du vent
+pour être à la fois légers et résistants ils sont souvent en matériaux composites.
+Parc éolien(ou ferme éolienne ou centrale éolienne)
+ensemble de plusieurs aérogénérateurs d'un site, connectés au même point de livraison au réseau d'électricité.
+Production
+énergie électrique produite exprimée en kWh
+C'est l'énergie active livrée (différence entre l'énergie active produite et l'énergie active consommée)
+Puissance nominale
+puissance électrique continue maximale délivrable, dans des conditions normales d'exploitation.
+Refroidissement
+élément refroidissant la génératrice électrique.
+Rotor
+dispositif à 2 ou 3 pales captant l'énergie du vent.
+Site
+lieu où sont installés le ou les éoliennes.
+Système hydraulique
+élément qui pilote les freins de l'éolienne pour éviter son emballement.
+Questions / réponses sur les petites et moyennes éoliennes1- Qu’est ce que la puissance électrique d’une éolienne ?
+Elle s’exprime en Watt, kiloWatt (kW) ou MégaWatt (MW) et définit la quantité d’énergie électrique instantanée que l’éolienne produit à vitesse nominale.
+2- Comment mesure-t-on l’énergie produite par une éolienne ?
+La quantité totale d’énergie électrique produite par une éolienne sur une période donnée est généralement exprimée en « kiloWatt.heures » (kWh), c’est-à-dire la puissance de production multipliée par la durée de production.
+Par exemple, une éolienne de 5 kW qui tournerait à vitesse nominale pendant 2 000 heures produirait 10 000 kWh.
+3 - Comment mesure-t-on la consommation d’électricité ?
+La consommation d’énergie électrique est le produit de la puissance consommée par les appareils électriques multipliée par leur durée d’utilisation.
+Par exemple, une ampoule électrique de 100 W allumée pendant 10 heures par jour, consomme sur une année 100 W x 10 heures x 365 jours = 365 kWh.
+4- Quelle est la bonne taille pour une éolienne ?
+Plus elles sont grandes, plus ont la capacité de capter l’énergie cinétique du vent et produire de l’électricité.
+Les très petites éoliennes pour bateau font moins de 60 cm pour une puissance de quelques centaines de Watts.
+Les grandes éoliennes industrielles de plusieurs MW dépassent les 80 m de diamètre.
+Le petit et moyen éolien correspond à des éoliennes dont les tailles sont comprises entre 3 et 30 m.
+5- Puissance et taille sont-elles proportionnelles ?
+Non. Contrairement aux panneaux photovoltaïques, par exemple, la puissance des éoliennes augmente selon le carré de leur taille : lorsque l’on double le diamètre d’une éolienne, on multiplie par 4 la surface de vent balayée, et donc par 4 sa puissance de production d’énergie.
+6- Existe t-il plusieurs types d’éoliennes ?
+Il existe de nombreuses technologies différentes d’aérogénérateurs, ayant chacune des avantages spécifiques :
+- à axe horizontal avec généralement 3 pales,
+- à axe vertical type Darrieus,
+- à axe vertical à godets type Savonius.
+Les éoliennes à hélice sur axe horizontal et les éoliennes à axe vertical de type Darrieus utilisent la force de portance du vent comme le font les avions. Elles sont les plus performantes pour les fortes vitesses de vent.
+Les éoliennes à axe vertical de type Savonius utilisent la force de traînée du vent à la façon des roues à aube de bateaux. Elles ont un plus faible rendement énergétique.
+7- Où peut-on installer une éolienne ?
+Il est possible d’installer une éolienne partout où il y le minimum de vent nécessaire à sa mise en production.
+L’installation peut se faire soit sur un mât ancré dans le sol, soit sur un bâtiment (maison, immeuble, stade, château d’eau…).
+8- Comment connaitre le potentiel éolien de son site ?
+Avant toute installation, il est recommandé de connaître le potentiel de son gisement éolien.
+Météo France fournit des "Roses des vents" calculées sur plusieurs années, pour la plupart des cantons de France Métropolitaine.
+9- Quelle est la bonne hauteur d'installation de son éolienne ?
+La configuration d’un projet éolien dépend de nombreux facteurs et n’a pas de réponse unique.
+Un mât haut permet généralement de capter des vents plus réguliers et plus rapides. Mais cela augmente le coût de l’installation et peu réduire sa rentabilité.
+Il est souvent plus raisonnable de rester à une hauteur réduite (inférieure à 12 m pour une éolienne de moins de 20 kW) que de se lancer dans une construction de trop grande ampleur.
+10- Faut-il un permis de construire pour installer une éolienne ?
+Le code de l’urbanisme (Art. R421-2 alinea c)  prévoit qu’un permis de construire n’est pas nécessaire pour les éoliennes dont le mât ne dépasse pas les 12 mètres (les pâles et parties en mouvement ne sont pas prises en compte pour le calcul de la hauteur).
+11- Peut on rester connecté à EDF ?
+Bien-sûr ! Il n’est pas nécessaire de modifier sont installation électrique pour y ajouter une installation éolienne.
+Plusieurs choix s'offrent à vous :
+- se raccorder au réseau électrique et vendre son surplus de production,
+- se raccorder au réseau électrique et stocker son surplus de production (généralement dans des batteries),
+- ne pas se raccorder au réseau électrique et stocker son surplus de production.
+12- Et si mon éolienne produit plus que ce que je consomme ?
+Une éolienne ne produit pas de l’électricité en permanence ni avec une puissance constante. Selon les jours et les heures, il y a donc toujours une différence entre l’électricité produite et l’électricité consommée.
+Si l’installation intègre des batteries, lorsque le vent souffle fort, le surplus d’électricité est stocké pour être utilisé lorsque le vent sera plus faible.
+Si votre installation est raccordée au réseau de distribution, celui-ci peut racheter les surplus de production et vous les revendre lorsque le vent sera plus faible.
+13- Quelles sont les subventions et aides disponibles ?
+Le petit et moyen éolien bénéficie d'aides issues : de l’État, des collectivité territoriales, notamment les régions, ou d’organisme publics tel que l’ADEME.
+La mise en place d’un projet éolien chez un particulier, un exploitant agricole, une entreprise publique ou privée, ou une collectivité ouvre donc droit à des subventions qui viennent en déduction du prix du matériel et/ ou des coûts d’installation ou de pré-étude.
+14- Ai-je droit à un crédit d’impôts ?
+Les lois de finance actuelles prévoient un crédit d’impôt pour l’installation d’éoliennes sur ou à proximité des résidences principales lorsque l’installation est effectuée par des professionnels.
+Il convient de se renseigner auprès des services fiscaux et de ne pas vous fier aux seuls dires de votre installateur potentiel pour vous assurer du taux et des conditions de ces crédits d'imôt !
+15- Mon éoliennes fera-t-elle du bruit ?
+Contraire aux éoliennes de générations précédentes, une éolienne moderne et bien installée ne doit pas faire plus de bruit que celui du vent dans les arbres...
+Les technologies récentes permettent de réduire la vitesse de rotation à l’extrémité des pales qui est la première source de bruit.
+Quelques fabricants français d'éoliennes de petite puissance
+(vous trouverez l'ensemble des adresses de fabriquants mondiaux sur la page
+"éoliennes domestiques")
+France-Eoliennes (de 2 kW à 20 kW)
+La Tuilerie - 45450 - FAY aux LOGES
+02 38 46 61 71
+France-Inéole (de 100 W à 10 kW)
+6, rue de Verdun - 88300 - NEUFCHATEAU
+03 29 06 19 33
+Soleil le Vent (1 kW) Importeur France
+Le Bouchot - 58160 - LA FERMETE
+03 86 58 54 42
+Travere Aérogénérateurs (de 500 W à 10 kW)
+341, rue Sainte Marguerite - 06200 - NICE
+04 93 83 78 97
+Vergnet SA (de 2 kW à 220 kW)
+160, rue des Sables de Sary - 45770 - SARAN
+02 38 52 39 70
+Vent de Colère
+L'énergie éolienne ne fait cependant pas toujours l'unanimité : une fédération regroupant 282 associations opposées à l'éolien en France s'est constituée, luttant notamment contre l'implantation massive d'éoliennes industrielles...
+News
+Les éoliennes du futur
+L'inventeur californien Joe Ben Bevirt a imaginé une énorme structure de 175 m d'envergure dotée de 96 rotors tous reliés entre eux par de la fibre de carbone. L'ensemble dépasse les 100 tonnes. L'objectif de ce projet est d'atteindre les 10 000 m d'altitude, dans la troposphère, où les courants-jets sont rois.
+Ces vents extrêmement violents et persistants permettraient de générer environ 50 mégawatts. L'engin décollerait du sol grâce à ses rotors qui, une fois en place,  serviraient uniquement à produire de l'électricité qui arriverait jusqu'au sol via un câble de 10 km !
+Un projet qui devrait voir le jour en 2016, mais qui pose un problème : comment gérer ce système avec l'espace aérien ?
+EDF Energies Nouvelles a commandé 26 turbines pour son parc éolien "Chemin d´Ablis" à la société allemande REpower. Le parc "Chemin d´Ablis", situé dans le département de l´Eure-et-Loir, comprendra 26 éoliennes de 2 MW qui longeront l´autoroute A10 sur 13 km. Cela représente un investissement total de 75 millions d´euros. Les travaux débuteront au printemps 2007 et la mise en service du parc éolien devrait intervenir dans le courant du 1er semestre 2008.
+EDF a prévu d'investir dans l'éolien 3 milliard d'euros entre 2006 et 2010...
+La Communauté de Communes du Val de Sauzay envisage d'installer sur le mont Chablai par l'entremise de la société Eol-Res un ensemble d'une dizaine d'éoliennes dont la puissance totale pourrait délivrer 20 MW !
+Un seul des aérogénérateurs installés pourrait alimenter 2500 personnes au vu des premières estimation de la vitesse moyenne du vent sur ce site.
+L'investissement serait de 24 M€ avec des retombées locales de sous-traitance, des loyers versés aux propriétaires et une rente fiscale estimée à 140.000 €, pour les collectivités concernées (Varzy et Cuncy les Varzy).
+L'installation de cette ferme éolienne implique la mise en place d'une aire de grutage et d'une piste d'accès pour l'acheminement du matériel et de son entretien.
+Projet de l'installation d'une douzaine d'éoliennes d'une puissance unitaire de 2 MegaWatt et d'une hauteur de 130 mètres dans le Cher sur le plateau de Bellechaume. Le site le plus venteux du département sera exploité par la société Eol-Res...
+Les communes concernées sont celles de Bué, Sancerre, Crézancy et Menetou-Râtel.
+Les récentes mauvaises expériences d'installations mal conçues ayant générées des nuisances tant environnementales qu'en impact visuel ont conduit Eol-Res à les éloigner des villages...
+Les éoliennes ont le vent en poupe si on en juge par le projet d'installation d'éoliennes sur la commune d'Annay (près de Myennes - A77) par le groupe EPS. Il s'agirait d'implanter de 3 à 5 unités culminant à une centaine de mètres (pales comprises), à 2 km du bourg. L'enquête publique est en cours pour déterminer l'impact sur l'environnement. La production d'électricité prévue par le projet alimenterait les besoins de 15.000 habitants... pour un investissement chiffré à 7 M€.
+Forum
+Ma réflexion porte pour l'instant sur une éolienne de 4.5 kW. L'idée est d'associer un chauffe eau solaire + électrique pour ECS et chauffage (basse température au sol). L'éolienne viendrait fournir une partie de l'électricité. Deux questions : 1/ cette idée est elle réaliste, ne vais je pas consommer plutot du kW EdF ? 2/ comment réagit une éolienne avec la neige et les basses températures. Si elle ne fonctionne pas l'hiver, cela n'a plus d'interêt. Si cette solution est viable, elle m'éviterait une chaudière bois. La cheminée étant là pour une solution de confort en présence des habitants. Dernière question, qu'en est il de la réglementation française sur l'éolien domestique. Je ne souhaite pas débattre sur les technologies éoliennes, mais plutot sur son usage au quotidien et à moyen terme sur une habitation.
+P.C
+Beaucoup de personnes se disent pour l'énergie éolienne à condition qu'on ne les installe pas à proximité de chez elles ou dans leur paysage. Pourtant il n'y a pas photo entre un champ d'éoliennes et une centrale nucléaire !!!
+H.P
+Le bon français de base qui n'est pas à une contradiction près, exige tout ce qui l'arrange : autoroute, TGV, téléphonie mobile, etc, à la seule condition que ce ne soit jamais devant sa porte. Pour parler précisément de nos modernes moulins à vent et pour avoir visité un champ d'éoliennes près de Port Leucate, je vous assure que le bruit est pourtant tout à fait supportable. Quand à l'impact environnemental que dire de celui d'un barrage hydro-électrique ?
+P.E
+Dans le Gard, j'ai vu le parc des 12 éoliennes du Col de Chavade. Elles ne gâtent en rien la beauté du paysage.
+En tout cas, je trouve ces édifices bien plus harmonieux que les lignes haute tension auxquelles chacun s'est pourtant habitué.
+G.B

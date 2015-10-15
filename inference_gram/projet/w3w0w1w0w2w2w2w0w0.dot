@@ -1,0 +1,14 @@
+digraph G {
+s3 [shape="doublecircle"];
+s3 [shape="doublecircle"];
+s3->s0[label="w2"];
+s2->s0[label="w3"];
+s1->s3[label="w0"];
+s0->s0[label="w0"];
+s0->s1[label="w1"];
+s0->s0[label="w2"];
+s0->s0[label="w2"];
+s0->s3[label="w0"];
+s2 [shape="diamond"];
+s2 [shape="diamond"];
+}

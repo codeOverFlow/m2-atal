@@ -1,0 +1,95 @@
+Présentation Lutilisation du vent, à des fins multiples, est très ancienne : quil ait permis aux voiliers de découvrir de nouveaux mondes ou quil ait fait tourner tout simplement les ailes des moulins, le vent a permis de bâtir des empires et modeler le monde économique.
+Il y a 2 siècles en France, les ailes de 20 000 moulins tournaient sur nos collines.
+Aujourdhui, des milliers déoliennes à travers le monde assurent le pompage de leau.
+Vous jugez important de participer à leffort pour limiter les émissions de gaz à effet de serre,
+Vous avez envie de contribuer à la lutte contre les pollutions
+Le vent souffle près de chez vous ?
+Alors, apprenez à le faire travailler et produisez de lélectricité
+Un potentiel de développement en Midi-Pyrénées :En Europe et dans le Monde
+La plupart des pays européens, et surtout ceux ne disposant pas de ressources hydrauliques, ont développé lénergie éolienne. Les plus avancés dans ce domaine sont le Danemark, lAllemagne, les Pays-Bas et lEspagne.
+. En Europe : 17 500 MW installés, dont la ½ en Allemagne (la France est le 12ème producteur européen).
+. Dans le Monde : 24 000 MW installés, soit 1% de la consommation totale dénergie.
+En France
+Environ 1,3 GW sont installés à ce jour, principalement en Languedoc-Roussillon.
+En savoir plus
+sur la situation nationale : (  http://www.suivi-eolien.com ),
+En Midi-Pyrénées :
+Le gisement éolien en france
+Notre région possède un bon potentiel de développement de lénergie éolienne. 24 éoliennes produisant 34 MW sont installées et raccordées au réseau en Midi-Pyrénées.
+. En 1995, un inventaire a été établi conjointement entre les régions Midi-Pyrénées, Languedoc-Roussillon et Catalogne. Ces données ont permis dalimenter un logiciel nommé GEOWIND : il estime localement le potentiel éolien dun site. Cette information doit bien sûr être complétée par des études spécifiques pour définir véritablement la potentialité dun site.
+EOLE 2005 ¤ Le programme EOLE 2005, lancé en 1996 par le Ministère de lIndustrie, lADEME et EDF, a concrétisé la volonté de la France de se lancer dans la production dénergie dorigine éolienne. Les enjeux sont à la fois environnementaux, économiques et industriels.
+Lobjectif de ce programme était de susciter la création de parcs éoliens en installant à lhorizon 2005 une puissance de 250 à 500 MW.
+Après lancement dappels à candidatures pour la fourniture, par des producteurs autonomes, délectricité dorigine éolienne, 55 projets ont été sélectionnés dans le cadre dEOLE 2005 entre 1997 et 2000.
+Comment ça marche ? Le vent provoque la rotation des pales et cette énergie mécanique est transformée en énergie électrique par une génératrice (la puissance voulue détermine la longueur des pales). Le rendement de transformation de lénergie du vent en électricité est de lordre de 30 %. Les dernières nées des machines, à vitesse variable, utilisent encore mieux le vent.
+Les pales sont toujours orientées face au vent par un système de gouvernail.
+Lélectricité produite est soit utilisée directement, soit stockée dans des batteries.
+Il existe deux catégories déoliennes : les aérogénérateurs domestiques (jusquà 25 kW) et les grandes éoliennes généralement raccordées au réseau EDF.
+Les machines les plus fréquemment installées font 0,75 MW ; on préfère aujourdhui installer des parcs éoliens avec peu de machines, mais puissantes (les plus grosses atteindront bientôt 4 MW). Bien sûr, les petites éoliennes sont toujours dactualité pour les usages en sites isolés.
+Une éolienne a une plage dutilisation donnée : au-dessous dun vent faible (4m/s), elle ne tourne pas, et en cas de vents violents, les pales sont mises en drapeau offrant un minimum de résistance au vent (en France, toutes les installations ont résisté à la tempête de 1999). Les machines de petites puissances à usage domestique peuvent être basculées en cas de vent violent.
+Les éoliennes sont aujourdhui complexes (mécanique de précision, électronique pour la régulation, matériaux composites pour les pales). Côté technique, rien nest encore figé; les machines se perfectionnent dannée en année et les différentes technologies illustrent les différentes écoles.
+Réaliser une installation éolienne :
+Les éoliennes, tout comme lénergie solaire photovoltaïque, peuvent être connectées au réseau électrique ou fournir de lénergie à des sites isolés.
+Toutefois, linégalité de répartition de la ressource en vent et les contraintes dinstallation font quen site urbain, seul le photovoltaïque est souvent envisageable.
+Par ailleurs, le recours à l'énergie éolienne (énergie renouvelable) dans les résidences principales peut donner droit à un crédit dimpôts :
+. Le crédit d'impôt 2006 ()
+. Site Internet de l'administration fiscale :
+http://www.impots.gouv.fr
+Vous souhaitez réaliser une installation éolienne ? 2 cas de figures se présentent.
+Léolien en site isolé :
+¤ Votre habitation ou équipement est loin du réseau électrique : vous êtes en site isolé.
+Outre une quarantaine de bâtiments construits en sites isolés, des granges, stations de pompage, bateaux ou camping-car, par exemple, sont électrifiés en France grâce à la force motrice du vent.
+Lélectrification en site isolé peut se faire de différentes manières : groupe électrogène, turbine hydraulique, éoliennes ou modules photovoltaïques.
+La première solution est certes peu onéreuse à linvestissement, mais les trois autres présentent lavantage dêtre non polluantes, souples, fiables et moins coûteuses en fonctionnement.
+¤ Soutiens publics
+Le choix dune énergie renouvelable telle que lénergie éolienne permet de bénéficier de soutiens publics dans le cadre du FACE (Fonds dAmortissement des Charges dElectrification) si le site est en zone rurale ou dune aide financière de lADEME et dEDF si le site est en zone urbaine.
+¤ Votre demande
+Faites votre demande délectrification par courrier au Maire de votre Commune qui se chargera de la relayer après agrément.
+¤ Une étude préalable est nécessaire pour :
+. déterminer précisément les besoins quotidiens en électricité sur le site (durée dutilisation des équipements, puissance nécessaire, évolution possible des besoins),
+. identifier la ressource la mieux adaptée à la situation (site particulièrement venté, proximité dune source deau exploitable, ensoleillement et exposition),
+. dimensionner correctement linstallation,
+. choisir correctement limplantation de léquipement.
+¤ Si lénergie éolienne est retenue, en quoi consiste une telle installation ?
+¤ Apprenez à consommer autrement Menez une réflexion sur vos habitudes et comportements en matière dutilisation de lénergie Pensez maîtrise et économies.
+¤ Ce quil faut savoir :
+. Le dimensionnement de linstallation doit être fait par des spécialistes, à partir des données du site (vitesse et fréquence du vent) issues dune campagne de mesures sur une année (installation dun mât de mesure temporaire nécessitant une autorisation de travaux).
+.
+Une demande de permis de construire doit être déposée à la Mairie si la hauteur du mât dépasse 12 m. Il sera délivré par la Préfecture sur avis, généralement, de la Commission Départementale des Sites (composée de représentants des services de lEtat, délus locaux, de personnalités compétentes désignées par le Préfet).
+.
+Le coût dune installation est denviron 30 000 euros.
+Léolien connecté au réseau :
+¤ Vous nêtes pas en site isolé et vous souhaitez produire de lélectricité non polluante : vous pouvez vous connecter au réseau.
+La multiplication de points de production délectricité à base dénergies renouvelables réduit les gaspillages, notamment les pertes au niveau des lignes électriques, et vous permet de devenir un producteur délectricité non polluante.
+De plus, depuis février 2000,
+EDF (  http://www.edf.fr ),a lobligation de racheter lélectricité produite par des installations utilisant lénergie mécanique du vent, les tarifs de rachat ayant été fixés par larrêté du 08/06/01.
+Quand elles sont reliées au réseau, les éoliennes sont généralement de fortes puissances.
+Le parc éolien peut être construit à linitiative dun privé (entreprise, club dactionnaires), dun GAEC (Groupement agricole dexploitation en commun) ou dune collectivité (Commune ou Société dEconomie Mixte).
+¤ Le principe de fonctionnement est le suivant :
+Un automate, informé par une girouette, commande aux moteurs dorientation de placer les éoliennes face au vent dès que celui-ci se lève (au-delà de 4 m/s en général). Lénergie mécanique générée par la rotation des pales sous laction du vent est transformée en courant par un alternateur. Ce courant est ensuite injecté sur le réseau via une ligne de raccordement enterrée (si le réseau de distribution le permet).
+¤ La sélection dun site et le montage dun projet suppose la réponse aux questions suivantes : . Quelles est la ressource en vent ?
+. Comment et où se raccorder au réseau électrique ?
+. Comment et où se raccorder au réseau routier ?
+. Quelles sont les contraintes environnementales et réglementaires ?
+. Quelle est la faisabilité économique du projet ?
+. Quel montage financier mettre en uvre ?
+LADEME peut vous aider dans ces démarches.
+¤ Faites dimensionner votre installation par des professionnels.
+Cela sous-entend la réalisation dune étude de faisabilité avec limplantation temporaire (en général 1 an) dun mât permettant des campagnes de mesures de la force du vent à 10, 30 et 40 m (une déclaration de travaux est nécessaire).
+Puis
+faites vos démarches administratives (Mairie, Préfecture, aviation civile, ) et économiques (contrat de rachat). Il faut sarmer de patiente, ces démarches peuvent durer plusieurs années.
+¤ Ce quil faut savoir :
+. Il est fondamental dassocier lensemble des acteurs concernés par le futur parc éolien (élus, administrations, riverains, associations locales) afin quun dialogue constructif sinstaure et limite le risque de rejet local du projet ; il est important de les tenir ensuite informés régulièrement de la performance des équipements (formation dun comité local dinformation).
+.
+Le dimensionnement de linstallation doit être fait par des spécialistes, à partir des données du site (vitesse et fréquence du vent) issues dune campagne de mesures sur une année en général (installation dun mât de mesure temporaire).
+.
+Une demande de permis de construire doit être déposée à la Mairie ; le permis sera délivré par la Préfecture sur avis en général de la Commission Départementale des Sites (composée de représentants des services de lEtat, délus locaux, de personnalités compétentes désignées par le Préfet).
+.
+Le raccordement pose quelquefois des problèmes : lisolement des parcs éoliens le rend souvent coûteux (longueur de ligne à enterrer) et il est tributaire de travaux de renforcement du réseau de distribution en cas de besoin.
+.
+Une gestion électronique à distance permet une surveillance régulière de la production délectricité et du fonctionnement des machines.
+.
+Les travaux dinstallation dun parc éolien nécessitent des démarches spécifiques pour le transport (convoi exceptionnel pour transporter les tronçons des mâts, les pales) et le montage (moyens de manutention gigantesques).
+.
+Le prix du kilowatt installé est évalué à 1 000 €, soit 10 M€ pour un parc de 10 MW. Lachat des éoliennes représente 70 à 80 % de ce coût dinvestissement.
+10 MW = lélectricité consommée (hors chauffage), par 15 000 personnesEn installant de tels matériels, vous participez à la protection de lenvironnement, notamment à la réduction des émissions de gaz à effet de serre, et à léconomie des réserves dénergies fossiles mondiales.
+En 3 mois, une éolienne produit léquivalent de lénergie quil a fallu pour la fabriquer, linstaller, lentretenir et la démanteler.

@@ -1,0 +1,79 @@
+Un article de Wiki Paris Descartes.
+dossier écrit par ARTUR,ALIX BLADIER,PAULINE, corrigé par Eric.dane 27 mai 2006 à 02:01 (CEST)
+L’énergie éolienne (du grec éole, déesse des vents) est l'énergie qui provient des mouvements de l'air.
+Historique
+Elle est utilisée depuis l’Antiquité grâce aux bateaux à voile, aux moulins. À cette époque, le vent était (avec la traction animale) l’une des seules sources d'énergie disponible. Les premières éoliennes servaient à pomper l’eau. , Depuis le 19ème siècle, la révolution industrielle a remplacé le vent par d’autres sources d’énergie (charbon, pétrole, gaz, électricité). Aujourd’hui, pour des raisons environnementales, le vent est de nouveau exploité mais par des moulins plus modernes, les éoliennes.
+2 types d'éoliennes
+Les éoliennes qui fournissent de l’énergie électrique
+On les appelle aussi aérogénérateurs. L’éolienne est accouplée à un générateur électrique pour fabriquer du courant continu (installation reliée à des batteries) ou alternatif (installation reliée au secteur). Elles ont des tailles variables. Les plus petites sont utilisées pour l’alimentation électrique de sites isolés ou de maisons particulières. Les plus grandes sont souvent regroupées en fermes éoliennes pour une production de masse sur le réseau d’électricité (centrales éoliennes). Elles sont les plus connues et les plus utilisées.
+Les éoliennes qui fournissent de l’énergie mécanique
+Le vent est aussi utilisé pour faire avancer un véhicule (voilier), pour pomper l’eau (moulins) ou faire tourner une meule. Elles sont de petites tailles et se trouvent principalement dans les zones arides (Afrique, Etats-Unis, Australie,…).
+cycle 3
+Etude d’une source d’énergie renouvelable, l’éolienne. Le travail est réalisé sur un trimestre entier. Il n’y a pas systématiquement une séquence par semaine.
+INTERET DU THEME
+L’éolienne est un moyen de production d’énergie qui se développe de plus en plus car elle présente de nombreux avantages.
+L’étude des éoliennes permettra aux professeurs de cycle 3 d’introduire le concept d’énergie sans pour autant en faire une véritable définition scientifique. Cette séquence confronte les élèves à une source dite « d’énergie propre ». En effet, une éolienne ne produit pas de pollution des sols (absence de production de suies, de cendres, de déchets), pas de pollution de l’eau (absence de rejets dans le milieu aquatique, absence de production de métaux lourds) et pas de pollution de l’air (absence d’émissions de gaz à effet de serre, de poussières, de fumées, d’odeurs, de gaz favorisant les pluies acides). Enfin, avec cet exemple concret les élèves pourront étudier la consommation et l’économie d’énergie par une approche expérimentale qui permet de mieux assimiler les connaissances.
+Les élèves doivent maîtriser les notions d’énergie et de source d’énergie. L’énergie ne se voit pas, c’est une force qui se transforme : le vent peut, grâce à un appareil, se transformer en électricité. Ils doivent savoir que dans cet exemple le vent est la source d’énergie. Ils doivent donc avoir assimilé le fait que la source d’énergie est ce qui permet à un appareil de produire l’énergie. De plus, il nécessaire que les enfants aient déjà des bases en électricité, notamment sur le circuit électrique pour pouvoir construire la maquette qu’il leur est demandé.
+OBJECTIFS
+Cette séquence permettra de sensibiliser les élèves à une nouvelle forme d’énergie actuellement en pleine expansion car présentant de nombreux intérêts pour l’environnement. Par cette observation en milieu réel, la curiosité des enfants sera stimulée et permettra une construction rationnelle de la matière. Par l’analyse des résultats en petits groupes, ce cours apprendra à l’élève à synthétiser les informations, à lire et ordonner des données scientifiques. Enfin cette séquence développera des attitudes d’écoute, de respect et de coopération.
+Ce travail se déroule en plusieurs séances au cours d’un semestre.
+Au cours de cette séquence le professeur peut rencontrer diverses difficultés, notamment avec le vocabulaire.
+L’emploi dans le langage courant du mot énergiese rapporte souvent au comportement humain et évoque plutôt une idée de grande puissance et de rapidité de l’action : ‘l’énergie du désespoir’, ‘un individu énergétique’ etc.
+Il est probable que les élèves comprennent difficilement que les transferts d’énergie peuvent se manifester par des effets faibles : entretien du mouvemement d’une montre par une pile par exemple. L’enseignant devra être vigilant dans la compréhension et l’utilisation du vocabulaire par les élèves.
+Séance 1 : Introduction du sujet par le professeur
+L’enseignant démarre la discussion en demandant aux élèves quels sont les effets du vent sur des objets se trouvant dehors. Il cherche à leur faire percevoir que le vent est une source d’énergie.
+Les réponses des élèves peuvent être les suivantes :
+« Les arbres bougent »
+« les feuilles volent »
+« les habits et les cheveux s’envolent »
+« les girouettes tournent »
+Il insiste ensuite sur le fait que le vent est une force capable de déplacer les objets. C’est pourquoi, il leur demande ensuite de citer quelques objets montrant que le vent est une source d’énergie utilisable (réponses attendues : un moulin à vent, un voilier, une éolienne, etc.). Cela lui permet d’introduire et d’expliquer ce que sont les éoliennes et leur intérêt.
+Séance 2 : Visite d’un parc éolien
+Visite guidée d’un parc éolien
+Les enfants découvrent le fonctionnement et l’utilisation d’une éolienne. Ils remplissent une feuille préparée par le maître (exemple de fiche d’observation en annexe 1) contenant des informations sur :
+Les différentes parties d’une éolienne
+Le fonctionnement d’une éolienne
+Les avantages et inconvénients
+Séance 3 : résumé séance 2 et préparation séance 4
+L’enseignant commence la séance en corrigeant la fiche d’observation. Ensuite, il met en place, avec les élèves, un protocole expérimental permettant de faire varier différents facteurs pour observer la variation de production d’énergie. Les élèves, avec le professeur, choisissent de construire une maquette d’éolienne avec laquelle ils pourront faire varier la force, la direction du vent et modifieront ainsi la vitesse de rotation des pales.
+Séance 4 : fabrication de la maquette
+On répartit la classe en cinq groupes d’environ quatre élèves. Chaque groupe construit une maquette.
+Matériel utilisé :
+Dynamo de vélo
+Bouchon en liège
+Embout pour tenir le bouchon
+Hélice en papier
+Deux punaises
+Deux fils électriques
+Diode (LED)
+Construction de l’éolienne
+On fixe le bouchon en liège sur la dynamo de vélo à l’aide de l’embout. L’hélice en papier est accrochée au bouchon grâce aux deux punaises. La dynamo est reliée à la diode par les deux fils électriques. Quand on fait tourner l’hélice (par le souffle ou par le vent), elle fait tourner la roue de la dynamo qui produit de l’électricité qui doit allumer la diode.
+Séance 5 : variation de la production d’énergie. Conclusion générale
+Variation de la production d’énergie
+Les élèves sont toujours en groupe. L’enseignant veut leur faire prendre conscience que la production d’énergie (allumage de la diode pour cette maquette) dépend de la force du vent et de sa direction. Pour cela, il choisit de faire varier ces différents facteurs à l’aide d’un sèche cheveux ayant deux vitesses.
+Tout d’abord, les enfants mettent le sèche cheveux sur la vitesse la plus faible (donc souffle moins fort). Ils changent la position du sèche cheveux par rapport à la maquette tout en notant dans un tableau leurs observations sur la vitesse de rotation des pales et l’allumage de la diode. Ils font de même pour la vitesse la plus élevée.
+tableau à clarifier--Eric.dane 27 mai 2006 à 02:31 (CEST)
+Analyse des résultats
+Les élèves peuvent constater que plus le vent est fort, plus les pales tournent vite, plus la lumière produite par la diode est intense (donc la production d’électricité est plus importante).
+Les élèves constatent que la vitesse de rotation des pales est maximale lorsque l’hélice est face au vent. Ainsi, la quantité d’électricité produite est maximale.
+Conclusion
+L’enseignant distribue aux élèves une petite feuille récapitulant rapidement tout ce que les élèves ont vu depuis la première séance et qui donne une définition sur les éoliennes (fonctionnement, constitution,…). L’enseignant insiste sur le vent comme source d’énergie et sur l’intérêt économique et écologique des éoliennes.
+Séance 6 : évaluation
+L’enseignant a préparé une évaluation (annexe 2) lui permettant de vérifier les connaissances acquises par les élèves notamment sur le fonctionnement et l’intérêt des éoliennes. L’évaluation permet de décrypter les éventuelles incompréhensions des élèves ainsi que des lacunes quant à la rédaction ou à l’analyse et la lecture de données scientifiques.
+Ouverture
+Après cette séquence, le professeur pourrait faire un cours sur les autres sortes d’énergies renouvelables qui existent. Les élèves pourraient ainsi les comparer à l’exemple étudié dans cette séquence.
+Les sites Internet
+Exemple de fiche d’observation :
+Schéma d’une éolienne
+Complète le dessin en indiquant où se trouvent les éléments suivants : pale, rotor, nacelle et mât
+Le fonctionnement d’une éolienne
+Complète le texte avec les mots suivants : nacelle, tourner, diffuser, électricité, force, énergie, pales.
+Lorsque le vent se met à souffler, il exerce une force sur les pales qui se mettent à tourner. Cette énergie est transformée en électricité par la nacelle. L’électricité est conduite, par l’intermédiaire des câbles du mât, à un générateur qui la diffuse.
+Avantages et inconvénients
+Avantages
+Pas de pollution ni de rejet de gaz à effet de serre. Technologie maîtrisée. Energie disponible un peu partout à la surface de notre planète. Nécessite une faible emprise au sol.
+Inconvénients
+Energie renouvelable toujours dépendante du vent. Impact visuel, sonore et sur le milieu biologique (oiseaux). Entretien important (graissage, nettoyage des pales).
+Facteurs influents
+Voici un tableau qui représente la production de l’éolienne Nordex N29/250 kW. Les données de vent ont été mesurées à 10 m. Commente ce tableau en cinq lignes et fait une petite conclusion. Tu dois t’aider de ce que tu as vu en cours.
+Donne rapidement la définition d'une éolienne, son intérêt et son fonctionnement.

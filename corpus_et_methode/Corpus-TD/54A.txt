@@ -1,0 +1,16 @@
+Le programme est constitué d’unités d’enseignement pour un volume total de 550 heures de cours. Les thèmes développés se concentrent sur les points suivants :
+• La spécificité des équipements éoliens et photovoltaïques
+-Les technologies aérogénérateurs et capteurs
+-Leur raccordement au réseau
+-La gestion et la maintenance à distance et en temps réel
+• Les différentes étapes de la conduite d’un projet de parc éolien et de ferme
+photovoltaïque
+-Contact avec les collectivités, ZDE, permis de construire, étude
+-Conduite de projet, chiffrage
+-Gestion de chantier et logistique
+• Les techniques de production de l’énergie électrique
+-Acquisition des bases : régimes triphasés, transformateurs, convertisseurs,
+machines et réseaux électriques
+-L’intervention sur les installations : les opérations de maintenance, la sécurisation
+du site
+• La pratique de l’anglais dans son quotidien professionnel

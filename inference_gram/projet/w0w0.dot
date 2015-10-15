@@ -1,0 +1,7 @@
+digraph G {
+s2 [shape="diamond"];
+s2 [shape="diamond"];
+s0 [shape="doublecircle"];
+s0 [shape="doublecircle"];
+s2->s0[label="w0"];
+}

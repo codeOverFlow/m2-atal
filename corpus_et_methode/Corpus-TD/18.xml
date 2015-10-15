@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dc:publisher>
+        energie-verte.blogspot.com
+    </dc:publisher>
+    <dc:language>
+        french
+    </dc:language>
+    <dc:format>
+        text/html
+    </dc:format>
+    <dc:title>
+        Le rapport Ollier sur l'énergie éolienne
+    </dc:title>
+    <dc:source>
+        http://energie-verte.blogspot.com/2010/03/mission-information-energie-eolienne.html
+    </dc:source>
+    <dc:coverage>
+        N/A
+    </dc:coverage>
+    <dcterms:issued xsi:type="dcterms:W3CDTF">
+        2010-11-02 12:42:22
+    </dcterms:issued>
+    <dc:identifier>
+        http://energie-verte.blogspot.com/2010/03/mission-information-energie-eolienne.html
+    </dc:identifier>
+    <dcterms:modified xsi:type="dcterms:W3CDTF">
+        2010-10-30 10:05:55
+    </dcterms:modified>
+    <dc:subject>
+        énergie éolienne, énergies éoliennes, aérogénérateur, aérogénérateurs, parc éolien, parcs éoliens, turbine éolienne, turbines éoliennes
+    </dc:subject>
+</metadata>

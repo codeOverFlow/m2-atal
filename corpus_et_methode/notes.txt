@@ -1,0 +1,58 @@
+########### propriete d'un corpus ############
+- condition de signifiance:
+   . pertinence -> "Les documents retenus doivent etre adequats comme source 
+                    d'information pour correspondre a l'objectif qui suscite 
+                    l'analyse"
+   . cohérence -> "les documents retenus doivent etre homogenes, c'est-a-dire
+                   obeir a des criteres de choix precis et ne pas presenter
+                   trop de singularite en dehors des criteres de choix"
+- condition d'acceptabilité:
+   . representativité -> "on peut, lorsque le materiel s'y prete, effectuer 
+                          l'analyse d'un echantillon. L'echantirronnage est 
+                          dit rigoureux si l'echantillon est une partie
+                          representative de l'univers de depart. Dans ce cas
+                          la les resulatats obtenus sur echantillon seront
+                          generalisables a tout ensemble"
+   . régularité/exhaustivite -> "une fois defini le champ du corpus if faut 
+                                 prendre en compte tous les elements de 
+                                 celui-ci"
+   . complétude -> "adequation du modele a construire a la totalite de ses
+                    elements implicitement contenus deans le corpus"
+- conditions d'exploitabilité:
+   . homogénéité -> "toutes les grandeurs recensees sont des quantites de meme
+                     nature"
+   . volume: 
+         . permettre des analyses statistiques
+         . faire emerger des aspects caracteristiques et informatif
+
+
+
+### definitions
+
+genres: "les genres sont les categories distinguees spontanement par les 
+         locuteurs confirmes d'une langue; par exemple les genres de l'anglais
+         incluent les romans, les articles de journaux, les editoriaux, 
+         les articles de recherches, les discours en public, les nouvelles
+         radiophoniques et la conversation de tous les jours."
+
+
+registres: - conception elargie des genres
+
+typologie a priori:
+   - categories pre-etablies
+   - demarche deductive
+typologie a posteriori:
+   - les categories emergent des textes
+   - utilisation de traitements statistiques
+   - demarche inductive (approche montante)
+   - caracterisation des textes par un ensemble de traits linguistiques
+
+
+######### 7 typologies #########
+1. Langues
+2. Discours
+3. Genres
+4. Textes
+5. Sections et configurations
+6. Morphologies
+7. Usages generiques ou styles

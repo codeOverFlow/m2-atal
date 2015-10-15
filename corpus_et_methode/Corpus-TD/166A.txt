@@ -1,0 +1,16 @@
+Une société espagnole (Sotavento) à décidé d'essayer de produire de l'hydrogène grâce aux éoliennes, je m'explique:
+Pour obtenir l'hydrogène, l'énergie générée par les aérogénérateurs sera conduite jusqu'à un électrolyseur. Cet appareil décompose l'eau à l'aide d'un courant électrique en dihydrogène et en oxygène.
+L'oxygène sera relâché dans l'atmosphère et l'hydrogène sera conservé et utilisé pour obtenir de l'électricité réinjectée ensuite dans les turbines éoliennes.
+Si les tests sont concluants, les parcs éoliens pourraient alors absorber les surplus d'énergie en cas de forte production et produire de l'électricité malgré l'absence de vent.
+On pourrait aussi gérer plus précisément la production éolienne, afin de l'adapter à la demande du réseau.
+Les essais qui devraient se poursuivre tout au long de l'année sont financés à hauteur de 400.000 euros par le conseil de l'industrie et du gaz naturel.
+On espère pouvoir fournir des données précieuses sur la possibilité d'emmagasiner l'énergie éolienne en la convertissant en hydrogène stocké dans des réservoirs.
+Vous y croyez vous à ce projet, moi oui j'aimerais bien , bon je vous un lien mais c'est qu'en espagnol donc désolé aux non espagnols
+http://www.sotaventogalicia.com/area_tecnica/presentacion.php
+Edit: Bon sa sembles pas très explicite désolé, alors tu produit de l'hydrogène pour que tu puisse l'utiliser comme source d'energie (tu vois comme si tu balancerais de l'eau sur une turbine bah là tu fais pareil avec de l'hydrogène sauf que l'hydrogène étant plus léger,cela crée moin de pertes de charges dans le système d'ou un rendement de l'installation du système plus élevée, je sais cela parait un peu tiré par les cheveux mais cela n'est pas si fou que cela en comparaison avec un autre projet sur lequel je taffe dans mes études en ce moment ^^)
+Tu vois mieux ravioli ou pas? tu balances de l'hydrogène qui est mois sous pression par une sorte de compresseur si tu veux et tu le balances sur une turbine pour que l'éolienne tourne meme si il n'y a pas de vent.
+de plus comme je l'ais marqué, tu peux gérer ta production d'électricité en gérant ta production d'hydrogène que tu balances pour faire tourner l'éolienne
+Euh ué j'y penses tu connais peut etre pas le fonctionnement réel d'une éolienne (ce qui est normal car bah faut vraiment avoir envie pour le savoir lol !)
+Je dois expliquer le fonctionnement d'une éolienne ou pas?
+_________________
+Le monde va mal, alors pourquoi ne pas l'aider à se remettre?

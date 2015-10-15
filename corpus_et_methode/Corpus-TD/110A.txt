@@ -1,0 +1,38 @@
+Modélisation avancée de la PDE avec CYMDIST
+Points saillants
+L’utilisation de la production décentralisée d’énergie (PDE) dans les réseaux de distribution électrique s’étend rapidement et la technologie impliquée avance à grands pas. Les ingénieurs doivent donc se munir de meilleurs outils pour évaluer l’impact de la PDE dans leurs réseaux électriques. CYME a substantiellement amélioré les fonctionnalités de son logiciel d’analyse de réseaux de distribution CYMDIST de façon à répondre aux besoins croissants en cette matière.
+CYMDIST offre la possibilité de modéliser tous les types de PDE incluant les PDE couplés électroniquement au réseau comme les turbines éoliennes (à génératrice synchrone ou asynchrone), les turbines à gaz (à haute vitesse), le stockage de l’énergie, les panneaux photovoltaïques, etc. Ces modèles de PDE améliorés sont utilisés lors des études de répartition de puissance, de court-circuit et de stabilité transitoire. CYMDIST présente également une suite complète de modèles de PDE incluant leur comportement dynamique, des fonctions de contrôle et des systèmes de protection. Les modèles de PDE ajoutés sont principalement des sources PDE à interface électronique et d’autres sources d’énergie conventionnelles utilisées dans des applications PDE.
+La simulation de systèmes îlotés et la réduction de réseaux sont maintenant disponibles dans CYMDIST afin de permettre d’évaluer l’impact de la PDE.
+Ces améliorations ont été apportées à CYMDIST en étroite collaboration avec le Centre de la technologie de l’énergie de Ressources naturelles Canada (maintenant appelé Canmet ÉNERGIE) de Varennes qui nous ont apporté leur soutien lors du développement et essais des nouveaux modèles. http://cetc-varennes.nrcan.gc.ca
+Modèles de PDE améliorés   Dans CYMDIST, les modèles de PDE sont divisés en trois catégories selon leur mode de raccordement au réseau électrique :
+Les génératrices synchrones (alternateurs) qui peuvent fonctionner en trois modes: régulateur de tension, avec génération fixe ou “swing”.
+Les génératrices asynchrones  qui fournissent une puissance constante.
+Les génératrices munies de convertisseurs électroniques qui sont utilisés avec les turbines éoliennes (synchrones ou asynchrones), les turbines à gaz (à haute vitesse), le stockage de l’énergie, les sources photovoltaïques et les piles à combustible.
+Modèles dynamiques
+Les modèles dynamiques des ressources PDE à interface électronique comprennent :
+Les systèmes de production d’énergie par microturbine.
+Les systèmes de conversion d’énergie éolienne à vitesse variable.
+Les machines synchrones à aimants permanents, à entraînement direct.
+Les générateurs asynchrones à double alimentation.
+Les autres modèles à interface électronique avec des modèles de sources simplifiées tels que les systèmes photovoltaïques, les systèmes à piles à combustible et les systèmes de stockage d’énergie par batterie.
+Estimation des impédances de la PDE
+La fonction d’
+estimation des impédances  fournit les valeurs typiques des impédances de la génératrice lorsque l’utilisateur n’a pas accès à ces données. Cette fonction découle des normes de calcul des courants de court-circuit qui proposent une série de tableaux pour les différentes tailles et types de génératrices et propose des données permettant de générer différents scénarios hypothétiques qui fournissent des résultats précis sur l’impact de la PDE.
+Réduction de réseaux
+Lorsqu’on entreprend des études sur des réseaux de distribution de grande taille comprenant plusieurs sources de PDE, il convient d’utiliser des réseaux réduits car ils diminuent l’effort de calcul et simplifient l’étude, permettant ainsi de se concentrer sur la zone d’intérêt uniquement. La fonction de
+Réduction de réseaux  de CYMDIST réduit les réseaux de grande taille en de plus petits réseaux équivalents tout en conservant la zone et les équipements d’intérêt. Plus important encore, ce modèle équivalent sophistiqué permet de faire correspondre les résultats d’écoulement de puissance et de court-circuit du réseau original détaillé.
+Fonctions de contrôle
+La modélisation dynamique des génératrices à interface électronique tient compte de fonctions de contrôle du convertisseur côté réseau. Celles-ci incluent les fonctions de commande courant/puissance et tension/fréquence. Les fonctions de contrôle côté source du convertisseur sont également modélisées pour simuler les limites d’opération des PDE.
+Contrôle des courants internes de l’onduleur
+Fonctions de protection
+CYMDIST comprend les deux fonctionnalités anti-îlotage les plus utilisées :
+Approches passives : détection de surtensions / sous-tensions et de surfréquences / sous-fréquences.
+Approches actives : rétroaction positive de tension et rétroaction positive de fréquence.
+Des fonctionnalités de protection des unités de PDE elles-mêmes sont aussi disponibles.
+Mode de fonctionnement en ilôtage
+L’intégration des technologies de PDE crée des réseaux qui sont alimentés par de nombreuses sources. CYMDIST a été modifié afin de permettre la modélisation des îlotages (réseaux alimentés seulement par la PDE ou les deux) et la possibilité de définir toute PDE comme “swing” pour le réseau. Les algorithmes de simulation et les rapports ont été améliorés pour permettre l’affichage de la nouvelle configuration et pour signaler toute condition de surcharge dans une PDE, applicable à toute condition de fonctionnement.
+La fréquence du réseau îloté est illustré ci-dessous pour deux cas : (1) un îlot qui contient plus de production que de charge avec une combinaison d’unités hydrauliques et éoliennes et (2) un îlot en sous-production avec une combinaison d’unités diesel et éoliennes. Les figures ci-dessous illustrent le comportement dynamique distinct dans chaque cas.
+Système de distribution simulé
+Modèle de turbine éolienne
+Îlotage en sur-production hydraulique/éolien
+Îlotage en sous-production diesel/éolien
