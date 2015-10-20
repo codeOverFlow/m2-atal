@@ -1,12 +1,12 @@
 source("usefullTools.r")
 
+# {{{ SIMU_SYMBOL
 stroke <-function(x0=-1,y0=-1,x1=1,y1=1,N=10)
 {
    strk <- matrix(c(seq(x0,x1,length=N),seq(y0,y1,length=N)),ncol=2)
    return(strk)
 }
 
-# {{{ SIMU_SYMBOL
 simu_symbol <- function()
 {
    digit_1 <- rbind(stroke(-0.3,0.5,0.3,1.0,10),stroke(0.3,0.9,0.3,-1.0,20))
@@ -18,7 +18,7 @@ simu_symbol <- function()
    dimnames(digit_4) <- list(num=1:nrow(digit_4),point=c("x","y"))
    plot(digit_4,type="l",col="red",xlim=c(-1,1),ylim=c(-1,1))
    points(digit_4)
-   
+
    digit_6 <- rbind(stroke(0.5,1,-0.5,1,10),stroke(-0.5,1,-0.5,-1,10),
                     stroke(-0.5,-1,0.5,-1,10), stroke(0.5,-1,0.5,0,10),
                     stroke(0.5,0,-0.5,0,10))
@@ -40,7 +40,7 @@ compute_symbol <- function (trace,nr=5,nc=3)
 }
 # }}}
 
-
+# {{{ COMPUTE_SYMBOL_DIR
 compute_symbol_dir <- function (trace,nangle=8)
 {
    NB <- length(trace[,"x"])
@@ -53,7 +53,9 @@ compute_symbol_dir <- function (trace,nangle=8)
    angle <- pmin(1 + floor(angle*nangle/(2*pi)),nangle)
    return(angle)
 }
+# }}}
 
+# {{{ CONSTRUCT_IMG
 rotate <- function(m) t(apply(m, 2, rev))
 
 constuctImg <- function(seq, nr=5, nc=3) {
@@ -64,24 +66,85 @@ constuctImg <- function(seq, nr=5, nc=3) {
    lut <- t(apply(rotate(rotate(t(lut))), 1, rev))
    return(lut)
 }
+# }}}
+
+# {{{ PRETTY_PRINT_IMG
+prettyPrintImg <- function(imgData) {
+   for (k in 1:dim(imgData)[1]) {
+      for(x in 1:dim(imgData)[2]) {
+         if (imgData[k,x] > 0) {
+            cat("\033[31;1m",imgData[k,x])
+         }
+         else {
+            cat("\033[00;0m", imgData[k,x])
+         }
+      }
+      cat("\n\033[00;0m")
+   }
+   cat("\n\n")
+}
+# }}}
+
+# {{{ VISUALIZE_DATA
+visualizeData <- function(t) {
+   for(i in 1:dim(t)[1]) {
+      img <- constuctImg(t[i,])
+      prettyPrintImg(img)
+   }
+}
+# }}}
+
+# {{{ CREATE_FEATURES
+createFeatures <- function(t) {
+   for(i in 1:dim(t)[1]) {
+      #----------- NON 0 PER LINES ----------#
+      img <- constuctImg(t[i,])
+      binarised <- apply(img, 2, function(x) { ifelse(x != 0, 1, 0) } )
+      nbNon0PerRows <- matrix(rowSums(binarised), ncol=1)
+      
+      if (i == 1) {
+         tmp <- matrix(0, dim(img)[1], ncol=1)
+      }
+      tmp <- tmp + nbNon0PerRows
+      #-------------- END -------------------#
+   }
+   bigSum <- sum(tmp)
+   tmp <- unlist(Map(function(x) { x/bigSum }, tmp))
+   return(list(nNon0PerRows=tmp))
+}
+# }}}
 
 #sim <- simu_symbol()
 #test <- compute_symbol(sim$d6, 7, 5)
 #test
-
+#
 #lut <- constuctImg(test, 7, 5)
-#lut
+#prettyPrintImg(lut)
+#
+#features <- createFeatures(lut)$nNon0PerRows
+#features
 
 #testdir <- compute_symbol_dir(sim$d1)
 #testdir
 
-table <- Load_Obs("../data/Data7X5/Test_compute_symbol_7_5Digit6.txt")
-for(i in 1:dim(table)[1]) {
-   img <- constuctImg(table[i,], 7, 5)
-   for (k in 1:dim(img)[1]) {
-      for(x in 1:dim(img)[2]) {
-         cat(img[k][x])
-      }
-      cat("\n")
-   }
-}
+table0 <- Load_Obs("../data/Data5X3/Test_compute_symbol_5_3Digit0.txt")
+table1 <- Load_Obs("../data/Data5X3/Test_compute_symbol_5_3Digit1.txt")
+table2 <- Load_Obs("../data/Data5X3/Test_compute_symbol_5_3Digit2.txt")
+table3 <- Load_Obs("../data/Data5X3/Test_compute_symbol_5_3Digit3.txt")
+table4 <- Load_Obs("../data/Data5X3/Test_compute_symbol_5_3Digit4.txt")
+table5 <- Load_Obs("../data/Data5X3/Test_compute_symbol_5_3Digit5.txt")
+table6 <- Load_Obs("../data/Data5X3/Test_compute_symbol_5_3Digit6.txt")
+table7 <- Load_Obs("../data/Data5X3/Test_compute_symbol_5_3Digit7.txt")
+table8 <- Load_Obs("../data/Data5X3/Test_compute_symbol_5_3Digit8.txt")
+table9 <- Load_Obs("../data/Data5X3/Test_compute_symbol_5_3Digit9.txt")
+#visualizeData(table)
+features0 <- createFeatures(table0)
+features1 <- createFeatures(table1)
+features2 <- createFeatures(table2)
+features3 <- createFeatures(table3)
+features4 <- createFeatures(table4)
+features5 <- createFeatures(table5)
+features6 <- createFeatures(table6)
+features7 <- createFeatures(table7)
+features8 <- createFeatures(table8)
+features9 <- createFeatures(table9)
