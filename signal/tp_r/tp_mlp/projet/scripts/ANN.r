@@ -63,7 +63,7 @@ constuctImg <- function(seq, nr=5, nc=3) {
    for(i in seq) {
       lut[i] = lut[i]+1 
    }
-   lut <- t(apply(rotate(rotate(t(lut))), 1, rev))
+   lut <- apply(lut, 1, rev)
    return(lut)
 }
 # }}}
@@ -90,23 +90,22 @@ visualizeData <- function(t) {
    for(i in 1:dim(t)[1]) {
       img <- constuctImg(t[i,])
       prettyPrintImg(img)
+      density <- createDensity(img)
+      cat(density$nNon0PerRows)
    }
 }
 # }}}
 
-# {{{ CREATE_FEATURES
-createFeatures <- function(t) {
-   for(i in 1:dim(t)[1]) {
-      #----------- NON 0 PER LINES ----------#
-      img <- constuctImg(t[i,])
-      binarised <- apply(img, 2, function(x) { ifelse(x != 0, 1, 0) } )
-      nbNon0PerRows <- matrix(rowSums(binarised), ncol=1)
+# {{{ CREATE_DENSITY
+createDensity <- function(img) {
+   binarised <- apply(img, 2, function(x) { ifelse(x != 0, 1, 0) } )
+   nbNon0PerRows <- matrix(rowSums(binarised), ncol=1)
       
+   for(i in 1:dim(img)[1]) {
       if (i == 1) {
          tmp <- matrix(0, dim(img)[1], ncol=1)
       }
       tmp <- tmp + nbNon0PerRows
-      #-------------- END -------------------#
    }
    bigSum <- sum(tmp)
    tmp <- unlist(Map(function(x) { x/bigSum }, tmp))
@@ -114,12 +113,30 @@ createFeatures <- function(t) {
 }
 # }}}
 
-#sim <- simu_symbol()
-#test <- compute_symbol(sim$d6, 7, 5)
-#test
-#
-#lut <- constuctImg(test, 7, 5)
-#prettyPrintImg(lut)
+# {{{ CREATE_SOUND_LEFT
+createSoundLeft <- function(img) {
+   past <- F
+   binarised <- apply(img, 2, function(x) { ifelse(x != 0, 1, 0) } )
+   nb0Left <- matrix(rowSums(), ncol=1)
+      
+   for(i in 1:dim(img)[1]) {
+      if (i == 1) {
+         tmp <- matrix(0, dim(img)[1], ncol=1)
+      }
+      tmp <- tmp + nbNon0PerRows
+   }
+   bigSum <- sum(tmp)
+   tmp <- unlist(Map(function(x) { x/bigSum }, tmp))
+   return(list(nNon0PerRows=tmp))
+}
+# }}}
+
+sim <- simu_symbol()
+test <- compute_symbol(sim$d6, 7, 5)
+test
+
+lut <- constuctImg(test, 7, 5)
+prettyPrintImg(lut)
 #
 #features <- createFeatures(lut)$nNon0PerRows
 #features
@@ -127,24 +144,24 @@ createFeatures <- function(t) {
 #testdir <- compute_symbol_dir(sim$d1)
 #testdir
 
-table0 <- Load_Obs("../data/Data5X3/Test_compute_symbol_5_3Digit0.txt")
-table1 <- Load_Obs("../data/Data5X3/Test_compute_symbol_5_3Digit1.txt")
-table2 <- Load_Obs("../data/Data5X3/Test_compute_symbol_5_3Digit2.txt")
-table3 <- Load_Obs("../data/Data5X3/Test_compute_symbol_5_3Digit3.txt")
-table4 <- Load_Obs("../data/Data5X3/Test_compute_symbol_5_3Digit4.txt")
-table5 <- Load_Obs("../data/Data5X3/Test_compute_symbol_5_3Digit5.txt")
-table6 <- Load_Obs("../data/Data5X3/Test_compute_symbol_5_3Digit6.txt")
-table7 <- Load_Obs("../data/Data5X3/Test_compute_symbol_5_3Digit7.txt")
-table8 <- Load_Obs("../data/Data5X3/Test_compute_symbol_5_3Digit8.txt")
-table9 <- Load_Obs("../data/Data5X3/Test_compute_symbol_5_3Digit9.txt")
-#visualizeData(table)
-features0 <- createFeatures(table0)
-features1 <- createFeatures(table1)
-features2 <- createFeatures(table2)
-features3 <- createFeatures(table3)
-features4 <- createFeatures(table4)
-features5 <- createFeatures(table5)
-features6 <- createFeatures(table6)
-features7 <- createFeatures(table7)
-features8 <- createFeatures(table8)
-features9 <- createFeatures(table9)
+#table0 <- Load_Obs("../data/Data5X3/Test_compute_symbol_5_3Digit0.txt")
+#visualizeData(table0)
+#table1 <- Load_Obs("../data/Data5X3/Test_compute_symbol_5_3Digit1.txt")
+#visualizeData(table1)
+#table2 <- Load_Obs("../data/Data5X3/Test_compute_symbol_5_3Digit2.txt")
+#visualizeData(table2)
+#table3 <- Load_Obs("../data/Data5X3/Test_compute_symbol_5_3Digit3.txt")
+#visualizeData(table3)
+#table4 <- Load_Obs("../data/Data5X3/Test_compute_symbol_5_3Digit4.txt")
+#visualizeData(table4)
+#table5 <- Load_Obs("../data/Data5X3/Test_compute_symbol_5_3Digit5.txt")
+#visualizeData(table5)
+#table6 <- Load_Obs("../data/Data5X3/Test_compute_symbol_5_3Digit6.txt")
+#visualizeData(table6)
+#table7 <- Load_Obs("../data/Data5X3/Test_compute_symbol_5_3Digit7.txt")
+#visualizeData(table7)
+#table8 <- Load_Obs("../data/Data5X3/Test_compute_symbol_5_3Digit8.txt")
+#visualizeData(table8)
+#table9 <- Load_Obs("../data/Data5X3/Test_compute_symbol_5_3Digit9.txt")
+#visualizeData(table9)
+
