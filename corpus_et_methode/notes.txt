@@ -56,3 +56,25 @@ typologie a posteriori:
 5. Sections et configurations
 6. Morphologies
 7. Usages generiques ou styles
+
+###############################################################
+############### Intervenant Japonais ##########################
+###############################################################
+
+#### MNH-TT: A platform that promotes reflective learning for trainee 
+     translators
+
+- MNH-TT user categories:
+   - system administrator
+   - organisation (basic user unit):
+      - organisation managers
+      - instructors
+      - learners
+
+division: you look both source and target text
+review: you concentrate only on the target translated text
+
+error types: a pre-defined set of error types is available to motivate revisions
+Reflective diagnosis: users can check their errors
+
+
