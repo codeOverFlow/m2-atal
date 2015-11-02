@@ -12,3 +12,17 @@
 
 
 ## Méthodes d'alignement
+
+
+
+
+
+
+
+
+
+
+
+
+------------------- PROJET -----------------
+prendre le context anglais de cancer comme vecteur traduit et verifier que la similarité le reconnait en TOP 1
